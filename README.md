@@ -25,6 +25,8 @@ cd provision-example
 go build
 ```
 
+Now read the code, in main.go, and make sure you understand what's happening. You will need a cloud API token saved into a file, you can create this via your dashboard. The example uses DigitalOcean, but you can customise it to use any provisioner.
+
 Create a file `./cloud-config.txt`
 
 ```sh
