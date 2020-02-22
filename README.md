@@ -1,11 +1,14 @@
 ## provision-example
 
-Provision a cloud host and optionally install some packages using user-data.
+Provision a cloud host and optionally install some packages using [user-data/cloud-init](https://cloudinit.readthedocs.io/en/latest/topics/examples.html).
 
-What's this for? This is an example of how to use the provision package as used in [inletsctl](https://github.com/inlets/inletsctl) and the [inlets-operator](https://github.com/inlets/inlets-operator). 
+What's this for? This is an example of how to use the provision package as used in [inletsctl](https://github.com/inlets/inletsctl) and the [inlets-operator](https://github.com/inlets/inlets-operator).
+
+* Have fun
+* Learn about cloud + platform engineering
+* Practice or build your Go skills
 
 Want to know more about inlets? [Inlets is a Cloud Native Tunnel](https://docs.inlets.dev/)
-
 Want to learn Go? Start with Alex's [golang basics series](https://blog.alexellis.io/tag/golang-basics/)
 
 ## Tutorial
@@ -32,6 +35,8 @@ runcmd:
   - systemctl enable nginx
   - systemctl start nginx
 ```
+
+For more examples of cloud-init, including how to add a custom user and SSH key, see [cloud-init examples](https://cloudinit.readthedocs.io/en/latest/topics/examples.html).
 
 Run the example:
 
