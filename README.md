@@ -2,13 +2,21 @@
 
 Provision a cloud host and optionally install some packages using user-data.
 
-What's this for? This is an example of how to use the provision package as used in [inletsctl](https://github.com/inlets/inletsctl) and the [inlets-operator](https://github.com/inlets/inlets-operator)
+What's this for? This is an example of how to use the provision package as used in [inletsctl](https://github.com/inlets/inletsctl) and the [inlets-operator](https://github.com/inlets/inlets-operator). 
+
+Want to know more about inlets? [Inlets is a Cloud Native Tunnel](https://docs.inlets.dev/)
+
+Want to learn Go? Start with Alex's [golang basics series](https://blog.alexellis.io/tag/golang-basics/)
 
 ## Tutorial
 
 Clone/build:
 
-```
+```sh
+export GOPATH=$HOME/go
+mkdir -p $GOPATH/inlets/
+cd $GOPATH/inlets
+
 git clone https://github.com/inlets/provision-example
 cd provision-example
 go build
@@ -59,6 +67,10 @@ curl -s 64.227.34.235 | head -n 4
 ```
 
 Delete any hosts you create via your dashboard, or using the cloud-provider's CLI.
+
+## What next?
+
+Have fun, start learning and customise the example to create something cool.
 
 ## Contributing
 
