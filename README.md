@@ -1,6 +1,6 @@
-## provision-example
+## Provision and automate cloud hosts in Go
 
-Provision a cloud host and optionally install some packages using [user-data/cloud-init](https://cloudinit.readthedocs.io/en/latest/topics/examples.html).
+This is an example CLI that shows how to use the [provision](https://github.com/inlets/inletsctl/tree/master/pkg/provision) package by inlets to create and automate a cloud host, optionally installing some packages using [user-data/cloud-init](https://cloudinit.readthedocs.io/en/latest/topics/examples.html).
 
 What's this for? This is an example of how to use the provision package as used in [inletsctl](https://github.com/inlets/inletsctl) and the [inlets-operator](https://github.com/inlets/inlets-operator).
 
@@ -12,6 +12,8 @@ Want to know more about inlets? [Inlets is a Cloud Native Tunnel](https://docs.i
 Want to learn Go? Start with Alex's [golang basics series](https://blog.alexellis.io/tag/golang-basics/)
 
 ## Tutorial
+
+Checkout the [provision](https://github.com/inlets/inletsctl/tree/master/pkg/provision) README file to find out more, before starting.
 
 Clone/build:
 
